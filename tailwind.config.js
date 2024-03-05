@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        stream: "url('src/assets/img/stream.png')",
-        joy: "url('src/assets/img/joy.png')",
-        star: "url('src/assets/img/star.png')",
+        stream: "url('@/assets/img/stream.png')",
+        joy: "url('@/assets/img/joy.png')",
+        star: "url('@/assets/img/star.png')",
       },
     },
   },
