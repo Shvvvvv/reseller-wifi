@@ -7,7 +7,9 @@ const props = defineProps({
   icon: String,
 });
 
-const urlIcon = computed(() => `@/assets/icon/${props.icon}`);
+const urlIcon = computed(
+  () => new URL(`/src/assets/icon/${props.icon}`, import.meta.url)
+);
 </script>
 
 <template>
