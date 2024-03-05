@@ -7,7 +7,7 @@ const props = defineProps({
   icon: String,
 });
 
-const urlIcon = computed(() => `@/assets/icons/${props.icon}`);
+const urlIcon = computed(() => `@/assets/icon/${props.icon}`);
 </script>
 
 <template>
