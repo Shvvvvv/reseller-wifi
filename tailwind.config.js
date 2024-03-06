@@ -8,6 +8,9 @@ export default {
         joy: "url('@/assets/img/joy.png')",
         star: "url('@/assets/img/star.png')",
       },
+      screens: {
+        "3xl": "1920px",
+      },
     },
   },
   plugins: [],

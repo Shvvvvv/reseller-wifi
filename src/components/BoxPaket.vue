@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="bg-cover p-4 rounded-md font-bold" :class="`${props.bg}`">
+  <div class="bg-cover p-4 2xl:p-8 rounded-md font-bold" :class="`${props.bg}`">
     <div class="flex justify-between mb-2 xl:mb-4">
       <p class="w-1/2">{{ props.title }}</p>
       <div class="w-1/2">

@@ -25,13 +25,6 @@ const dataQualification = [
   },
 ];
 
-const dataFeature = [
-  "Wireless Home Network",
-  "Stable Internet Connection",
-  "High Definition TV Channels",
-  "Combo Value Saving",
-];
-
 const dataPaket = [
   {
     title: "INTERNET + OTT",
@@ -146,7 +139,9 @@ const responsiveSlider = computed(() => {
 <template>
   <main class="relative z-10 flex flex-col gap-10 mb-14 md:gap-24">
     <section class="qualifications">
-      <p class="text-lg font-bold mb-4">Qualifications</p>
+      <p class="text-lg 2xl:text-2xl 3xl:text-3xl font-bold mb-4">
+        Qualifications
+      </p>
       <div class="md:hidden">
         <Swiper
           :pagination="{
@@ -168,7 +163,7 @@ const responsiveSlider = computed(() => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div class="hidden md:flex md:gap-5 xl:justify-around">
+      <div class="hidden md:flex md:gap-5 lg:justify-around">
         <CardQualification
           v-for="data in dataQualification"
           :title="data.title"
@@ -177,7 +172,7 @@ const responsiveSlider = computed(() => {
         />
       </div>
     </section>
-    <section class="feature">
+    <!-- <section class="feature">
       <p class="text-lg font-bold mb-4">Feature Internet TV</p>
       <div class="md:hidden">
         <Swiper
@@ -193,14 +188,33 @@ const responsiveSlider = computed(() => {
       <div class="hidden md:flex md:justify-around">
         <p
           v-for="data in dataFeature"
-          class="md:text-sm md:w-1/5 xl:text-center 2xl:text-base"
+          class="md:text-sm md:w-1/5 xl:text-center xl:text-base 3xl:text-lg"
         >
           {{ data }}
         </p>
       </div>
+    </section> -->
+    <section
+      class="w-[95%] lg:w-[80%] 3xl:w-[65%] my-4 flex flex-col items-center m-auto"
+    >
+      <p
+        class="mb-3 text-xl sm:text-2xl lg:text-4xl 2xl:text-5xl font-bold text-center leading-relaxed"
+      >
+        Internet Rumah Bebas Kuota & Hiburan Terlengkap
+      </p>
+      <p class="text-sm sm:text-base lg:text-lg 2xl:text-xl text-center">
+        Pilih paket internet #BebasFUP sesuai kebutuhanmu!
+      </p>
+      <p
+        class="text-sm sm:text-base lg:text-lg 2xl:text-xl font-bold text-center"
+      >
+        #LebihKencangLebihBebas
+      </p>
     </section>
     <section class="berlangganan">
-      <p class="text-lg font-bold mb-4">Berlangganan</p>
+      <p class="text-lg 2xl:text-2xl 3xl:text-3xl font-bold mb-4">
+        Berlangganan
+      </p>
       <div class="flex flex-col gap-6 lg:gap-10">
         <BoxPaket
           v-for="data in dataPaket"

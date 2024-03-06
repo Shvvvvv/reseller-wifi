@@ -20,7 +20,7 @@
       src="../assets/img/internet.png"
       alt="internet"
       title="www.freepik.com"
-      class="absolute opacity-75 top-16 xl:-top-20 2xl:-top-32 -right-3 w-80 sm:w-[30rem] sm:top-0 lg:w-[35rem] xl:w-[40rem] 2xl:w-[45rem]"
+      class="absolute opacity-75 top-16 lg:-top-10 xl:-top-20 2xl:-top-32 3xl:-top-40 -right-3 w-80 sm:w-[30rem] sm:top-0 lg:w-[35rem] xl:w-[40rem] 2xl:w-[50%] 3xl:w-[45%]"
     />
   </header>
 </template>
