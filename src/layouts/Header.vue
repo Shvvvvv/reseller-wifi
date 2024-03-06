@@ -9,10 +9,10 @@
       <img src="../assets/img/au.png" alt="auth" class="h-16 -rotate-45" />
     </div>
     <div class="mb-5 relative z-10 bg-">
-      <p class="text-xl w-4/5 relative z-10">
+      <p class="text-lg w-4/5 relative z-10">
         Layanan Registrasi First Media Promo Terbaru 2024
       </p>
-      <p class="text-sm leading-4 w-4/5 z-10 relative">
+      <p class="text-xs leading-4 w-4/5 z-10 relative">
         INTERNET CEPAT UNLIMITED DAN TV KABEL BERKUALITAS HD
       </p>
     </div>
@@ -20,7 +20,7 @@
       src="../assets/img/internet.png"
       alt="internet"
       title="www.freepik.com"
-      class="absolute opacity-75 top-16 -right-3 w-80 sm:w-[30rem] sm:top-0 lg:w-[35rem]"
+      class="absolute opacity-75 top-16 xl:-top-20 2xl:-top-32 -right-3 w-80 sm:w-[30rem] sm:top-0 lg:w-[35rem] xl:w-[40rem] 2xl:w-[45rem]"
     />
   </header>
 </template>

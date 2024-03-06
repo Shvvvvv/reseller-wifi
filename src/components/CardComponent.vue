@@ -21,7 +21,7 @@ const onClickPilih = () => {
     :style="{
       backgroundColor: color,
     }"
-    class="text-slate-50 p-5 rounded-3xl w-4/5 h-72 shadow-lg flex flex-col justify-between"
+    class="text-slate-50 p-5 rounded-3xl w-4/5 lg:w-[30%] xl:w-[25%] h-72 shadow-lg flex flex-col justify-between"
   >
     <div>
       <p class="text-2xl font-bold mb-5">{{ props.title }}</p>

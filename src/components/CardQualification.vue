@@ -13,13 +13,13 @@ const urlIcon = computed(
 </script>
 
 <template>
-  <div class="bg-cyan-600 rounded-lg p-4">
+  <div class="bg-cyan-600 rounded-lg p-4 xl:w-[30%] 2xl:w-[25%]">
     <div class="flex justify-center">
       <img :src="urlIcon" :alt="props.icon" class="w-1/5" />
     </div>
     <div>
       <p class="text-center font-bold">{{ props.title }}</p>
-      <p class="text-center text-sm mb-2">
+      <p class="text-center text-sm mb-2 md:text-xs">
         {{ props.desc }}
       </p>
     </div>

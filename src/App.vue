@@ -5,7 +5,9 @@ import Footer from "./layouts/Footer.vue";
 </script>
 
 <template>
-  <div class="bg-gradient-to-br from-cyan-600 to-cyan-950 p-4 text-slate-100">
+  <div
+    class="bg-gradient-to-br from-cyan-600 to-cyan-950 p-4 md:px-8 text-slate-100"
+  >
     <Header />
     <Main />
     <Footer />
