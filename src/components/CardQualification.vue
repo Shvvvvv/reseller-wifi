@@ -23,6 +23,7 @@ const urlIcon = computed(
         :alt="props.license"
         class="w-1/5 lg:w-[30%] xl:w-[20%]"
         :title="props.license"
+        loading="lazy"
       />
     </div>
     <div>

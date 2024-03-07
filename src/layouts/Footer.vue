@@ -54,6 +54,7 @@ const onClickPilih = () => {
           alt="https://www.pngwing.com/en/free-png-vcxpp"
           title="https://www.pngwing.com/en/free-png-vcxpp"
           class="w-[15rem]"
+          loading="lazy"
         />
       </button>
     </div>
