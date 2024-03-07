@@ -12,16 +12,22 @@ const dataQualification = [
     title: "Internet Unlimited",
     desc: "Internet Wifi kencang dengan kuota tak terbatas untuk semua paket",
     icon: "internet_unlimited.png",
+    license:
+      "https://www.freepik.com/icon/bandwidth_1779289#fromView=search&page=1&position=18&uuid=18f0c165-24fe-4b56-ab31-11722ce47387",
   },
   {
     title: "Ratusan Channel TV",
     desc: "Nikmati hiburan TV dan Film menarik dari dalam dan luar negeri",
     icon: "channel.png",
+    license:
+      "https://www.freepik.com/icon/client_1779362#fromView=resource_detail&position=11",
   },
   {
     title: "Support Terbaik",
     desc: "Didukung oleh Customer Support & Tim Teknisi yang berpengalaman",
     icon: "cs.png",
+    license:
+      "https://www.freepik.com/icon/avatar_1779287#fromView=resource_detail&position=43",
   },
 ];
 
@@ -169,6 +175,7 @@ const responsiveSlider = computed(() => {
           :title="data.title"
           :icon="data.icon"
           :desc="data.desc"
+          :license="data.license"
         />
       </div>
     </section>

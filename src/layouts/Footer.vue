@@ -6,7 +6,10 @@ const dataFeature = [
   "Combo Value Saving",
 ];
 const onClickPilih = () => {
-  window.open("https://wa.me/082119242093", "_blank");
+  window.open(
+    "https://wa.me/6281313979507?text=Halo%2C%20Saya%20ingin%20menanyakan%20informasi%20tentang%20Paket%20Berlangganan%20Firstmedia.",
+    "_blank"
+  );
 };
 </script>
 
@@ -32,11 +35,11 @@ const onClickPilih = () => {
           </p>
           <div class="flex gap-4">
             <p class="w-20">Telepon</p>
-            <p>: 085945385745</p>
+            <p>: +6282119242093</p>
           </div>
           <div class="flex gap-4">
             <p class="w-20">Whatsapp</p>
-            <p>: 085945385745</p>
+            <p>: +6282119242093</p>
           </div>
         </div>
       </div>
@@ -46,7 +49,12 @@ const onClickPilih = () => {
         class="w-[10rem] h-[4rem] overflow-hidden flex items-center"
         @click="onClickPilih"
       >
-        <img src="@/assets/icon/wa.png" alt="wa" class="w-[15rem]" />
+        <img
+          src="@/assets/icon/wa.png"
+          alt="https://www.pngwing.com/en/free-png-vcxpp"
+          title="https://www.pngwing.com/en/free-png-vcxpp"
+          class="w-[15rem]"
+        />
       </button>
     </div>
   </footer>

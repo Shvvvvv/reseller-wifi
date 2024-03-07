@@ -5,6 +5,7 @@ const props = defineProps({
   title: String,
   desc: String,
   icon: String,
+  license: String,
 });
 
 const urlIcon = computed(
@@ -19,8 +20,9 @@ const urlIcon = computed(
     <div class="flex justify-center">
       <img
         :src="urlIcon"
-        :alt="props.icon"
+        :alt="props.license"
         class="w-1/5 lg:w-[30%] xl:w-[20%]"
+        :title="props.license"
       />
     </div>
     <div>
