@@ -7,7 +7,7 @@ const dataFeature = [
 ];
 const onClickPilih = () => {
   window.open(
-    "https://wa.me/6281313979507?text=Halo%2C%20Saya%20ingin%20menanyakan%20informasi%20tentang%20Paket%20Berlangganan%20Firstmedia.",
+    "https://wa.me/6282119242093?text=Halo%2C%20Saya%20ingin%20menanyakan%20informasi%20tentang%20Paket%20Berlangganan%20Firstmedia.",
     "_blank"
   );
 };

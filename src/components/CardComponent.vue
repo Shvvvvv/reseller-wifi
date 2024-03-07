@@ -12,7 +12,12 @@ const props = defineProps({
 });
 
 const onClickPilih = () => {
-  window.open("https://wa.me/082119242093", "_blank");
+  window.open(
+    "https://wa.me/6282119242093?text=Halo%2C%20Saya%20ingin%20menanyakan%20informasi%20tentang%20Paket%20Berlangganan%20Firstmedia%20" +
+      props.title +
+      ".",
+    "_blank"
+  );
 };
 </script>
 
