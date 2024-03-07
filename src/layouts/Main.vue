@@ -165,6 +165,7 @@ const responsiveSlider = computed(() => {
               :title="data.title"
               :icon="data.icon"
               :desc="data.desc"
+              :license="data.license"
             />
           </SwiperSlide>
         </Swiper>
